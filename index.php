@@ -580,7 +580,7 @@ if(!empty($_GET)){ // Output results ?>
 					<span class="label">Total lease price</span>
 				</div>
 				<div class="col-md-6">	
-			 		<span class="value"><?= AddCur($LeaseRows[$LeaseResults['LeaseDuration']]['AppliedSum']);
+			 		<span class="value"><?= AddCur($LeaseRows[$LeaseResults['LeaseDuration']+$LeaseArgs['EarlyPickup']]['AppliedSum']);
 					/* ?= GetLeaseRows( $LeaseArgs, GetLEaseResults( $LeaseArgs ))[GetLEaseResults( $LeaseArgs )]['LeaseDuration']['AppliedSum'] ; ?>:- */ ?> </span>
 			 	</div>
 			 	<div class="col-md-12">
@@ -593,8 +593,8 @@ if(!empty($_GET)){ // Output results ?>
 			 			echo "<p class='info'>The duration of the lease is longer than the limit attribute for the product, meaning the calculated price is ignored and the season price is applied. We do not need to advice to the customer to lease the whole season just because the price is the same.</p>";
 			 		}
 					if( $LeaseResults['LeaseDuration'] == 0 ){
-			 			echo "<p class='info'>The Lease duration is less than one day, meaning the equipment is returned the same they it is picked up. Since the cost of leasing one day is the minimum cost for any lease, the cost of one day is applied. We do not need to advice to the customer to lease the whole season just because the price is the same.</p>";
-			 		}
+			 			echo "<p class='info'>The Lease duration is less than one day, meaning the equipment is returned the same they it is picked up. Since the cost of leasing one day is the minimum cost for any lease, the cost of one day is applied.§ We do not need to advice to the customer to lease the whole season just because the price is the same.</p>";
+			 		} 
 			 		?>
 			 	</div>
 			 	<hr />
