@@ -378,7 +378,7 @@
 				</ul><br />
 				
 				<div class="row">
-					<div class="col-md-9"><input name="debug" type="checkbox" <?= ($_GET['debug']) ? 'checked' : null ; ?>/><label for="debug">Show debugging info</label></div>
+					<div class="col-md-9"><input name="debug" id="debug" type="checkbox" <?= ($_GET['debug']) ? 'checked' : null ; ?>/><label for="debug">Show debugging info</label></div>
 				</div>
 			</div>
 		</div>
@@ -394,7 +394,7 @@
 						 <p>The price to lease the equipment for the whole season. Also the maximum price for shorter periods.</p>
 					</div>
 					<div class="col-lg-3">
-						<input type='number' name='SeasonPrice' required value='<?= $LeaseArgs['SeasonPrice'] ?>'/>
+						<input type='number' name='SeasonPrice' id="SeasonPrice" required value='<?= $LeaseArgs['SeasonPrice'] ?>'/>
 					</div>
 					<hr />
 					<div class="col-lg-9">						
@@ -402,7 +402,7 @@
 						<p>The number of days after which the price in no longer calculated from the Lease price array, and Season lease price is used instead.</p>
 					</div>
 					<div class="col-lg-3">
-						<input type='number' name='LeaseLimit' required value="<?= $LeaseArgs['LeaseLimit'] ?>">	
+						<input type='number' name='LeaseLimit' id="LeaseLimit" required value="<?= $LeaseArgs['LeaseLimit'] ?>">	
 					</div>
 					<hr />
 					<div class="col-lg-6">	
@@ -458,7 +458,7 @@
 						<p>The number of days the equipment is reserved after the last return date. Set by the Shop manager on product level to account for late returns or repairs.</p>
 					</div>
 					<div class="col-lg-3">	
-						<input type='number' name='LeaseBuffer' value="<?= $LeaseArgs['LeaseBuffer'];?>">	
+						<input type='number' name='LeaseBuffer' id="LeaseBuffer" value="<?= $LeaseArgs['LeaseBuffer'];?>">	
 					</div>
 					<hr />  
 					<div class="col-lg-9">						
@@ -466,7 +466,7 @@
 						<p>A number of days before the lease start during which the equipment is reserved and can be picked up, without affecting the lease price.</p>
 					</div>
 					<div class="col-lg-3">	
-						<input type='number' name='EarlyPickup' value="<?= $LeaseArgs['EarlyPickup']; ?>">	
+						<input type='number' name='EarlyPickup' id="EarlyPickup" value="<?= $LeaseArgs['EarlyPickup']; ?>">	
 					</div>
 					<hr />
 					<div class="col-lg-9">						
@@ -474,7 +474,7 @@
 						<p>A number of days after the lease end during which the equipment is reserved an can be returned, without affecting the lease price. </p>
 					</div>	
 					<div class="col-lg-3">	
-						<input type='number' name='LateReturn' value="<?=$LeaseArgs['LateReturn'];?>">	
+						<input type='number' name='LateReturn' id="LateReturn" value="<?=$LeaseArgs['LateReturn'];?>">	
 					</div>
 				</div>
 			</div>
