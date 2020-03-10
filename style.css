@@ -19,6 +19,8 @@ div.slim{
 	background:none;
 	padding:0px;
 	border:none;
+	margin-top:0px;
+	margin-bottom:0px;
 			
 }
 a{
@@ -62,6 +64,7 @@ input[type=checkbox]{
 	width:30px;
 	margin-right:15px;
 }
+
 textarea{
 	height:200px;
 	font-family:monospace;
@@ -78,7 +81,6 @@ button{
 button#add-interval{
 
 }
-
 table{
 	background-color:#fff;
 	width:100%;

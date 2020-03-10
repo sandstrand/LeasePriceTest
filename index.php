@@ -370,9 +370,9 @@
 					<li class='test_case'><a href="https://gist.legofarmen.se/leasepricetest/?SeasonPrice=1799&LeaseLimit=60&other_interval%5B1%5D%5BDay%5D=1&other_interval%5B1%5D%5BPrice%5D=249&other_interval%5B2%5D%5BDay%5D=2&other_interval%5B2%5D%5BPrice%5D=200&other_interval%5B3%5D%5BDay%5D=3&other_interval%5B3%5D%5BPrice%5D=150&other_interval%5B4%5D%5BDay%5D=4&other_interval%5B4%5D%5BPrice%5D=100&other_interval%5B5%5D%5BDay%5D=5&other_interval%5B5%5D%5BPrice%5D=50&other_interval%5B6%5D%5BDay%5D=6&other_interval%5B6%5D%5BPrice%5D=30&other_interval%5B7%5D%5BDay%5D=7&other_interval%5B7%5D%5BPrice%5D=20&LeaseBuffer=&EarlyPickup=&LateReturn=&LeaseStart=2020-11-20&LeaseEnd=2020-11-30">Suggestion/Example for product 'Senior Medel'</a>
 						<p>Applied to a short term lease without any special atrributes for different deadlines.</p></li>
 					<li class='test_case'><a href="https://gist.legofarmen.se/leasepricetest/?SeasonPrice=1799&LeaseLimit=30&other_interval%5B1%5D%5BDay%5D=1&other_interval%5B1%5D%5BPrice%5D=249&other_interval%5B2%5D%5BDay%5D=2&other_interval%5B2%5D%5BPrice%5D=200&other_interval%5B3%5D%5BDay%5D=3&other_interval%5B3%5D%5BPrice%5D=150&other_interval%5B4%5D%5BDay%5D=4&other_interval%5B4%5D%5BPrice%5D=100&other_interval%5B5%5D%5BDay%5D=5&other_interval%5B5%5D%5BPrice%5D=50&other_interval%5B6%5D%5BDay%5D=6&other_interval%5B6%5D%5BPrice%5D=30&other_interval%5B7%5D%5BDay%5D=7&other_interval%5B7%5D%5BPrice%5D=20&LeaseBuffer=&EarlyPickup=&LateReturn=&LeaseStart=2020-11-20&LeaseEnd=2021-01-31">Senior Medel with lease limit applied.</a><p>The duration of the lease is longer than the supplied <i>Lease limit</i> attribute.</li>
-					<li><a href="https://gist.legofarmen.se/leasepricetest/?SeasonPrice=1299&LeaseLimit=60&other_interval%5B1%5D%5BDay%5D=1&other_interval%5B1%5D%5BPrice%5D=249&other_interval%5B2%5D%5BDay%5D=2&other_interval%5B2%5D%5BPrice%5D=200&other_interval%5B3%5D%5BDay%5D=3&other_interval%5B3%5D%5BPrice%5D=150&other_interval%5B4%5D%5BDay%5D=4&other_interval%5B4%5D%5BPrice%5D=100&other_interval%5B5%5D%5BDay%5D=5&other_interval%5B5%5D%5BPrice%5D=50&other_interval%5B6%5D%5BDay%5D=6&other_interval%5B6%5D%5BPrice%5D=30&other_interval%5B7%5D%5BDay%5D=7&other_interval%5B7%5D%5BPrice%5D=20&LeaseBuffer=&EarlyPickup=&LateReturn=&LeaseStart=2020-11-20&LeaseEnd=2021-01-31">Senior Medel with max price.</a><p>The calculated sum of the days in the lees exceeds the <i>season price</i> attribute</p></li>
+					<li><a href="https://gist.legofarmen.se/leasepricetest/?SeasonPrice=1299&LeaseLimit=60&other_interval%5B1%5D%5BDay%5D=1&other_interval%5B1%5D%5BPrice%5D=249&other_interval%5B2%5D%5BDay%5D=2&other_interval%5B2%5D%5BPrice%5D=200&other_interval%5B3%5D%5BDay%5D=3&other_interval%5B3%5D%5BPrice%5D=150&other_interval%5B4%5D%5BDay%5D=4&other_interval%5B4%5D%5BPrice%5D=100&other_interval%5B5%5D%5BDay%5D=5&other_interval%5B5%5D%5BPrice%5D=50&other_interval%5B6%5D%5BDay%5D=6&other_interval%5B6%5D%5BPrice%5D=30&other_interval%5B7%5D%5BDay%5D=7&other_interval%5B7%5D%5BPrice%5D=20&LeaseBuffer=&EarlyPickup=&LateReturn=&LeaseStart=2020-11-20&LeaseEnd=2021-01-31">Senior Medel with max price applied.</a><p>The calculated sum of the days in the lees exceeds the <i>season price</i> attribute</p></li>
 					<li><a href="https://gist.legofarmen.se/leasepricetest/?SeasonPrice=1299&LeaseLimit=60&other_interval%5B1%5D%5BDay%5D=1&other_interval%5B1%5D%5BPrice%5D=249&other_interval%5B2%5D%5BDay%5D=2&other_interval%5B2%5D%5BPrice%5D=200&other_interval%5B3%5D%5BDay%5D=3&other_interval%5B3%5D%5BPrice%5D=150&other_interval%5B4%5D%5BDay%5D=4&other_interval%5B4%5D%5BPrice%5D=100&other_interval%5B5%5D%5BDay%5D=5&other_interval%5B5%5D%5BPrice%5D=50&other_interval%5B6%5D%5BDay%5D=6&other_interval%5B6%5D%5BPrice%5D=30&other_interval%5B7%5D%5BDay%5D=7&other_interval%5B7%5D%5BPrice%5D=20&LeaseBuffer=&EarlyPickup=&LateReturn=&LeaseStart=2020-11-20&LeaseEnd=2020-11-20">Senior Medel with zero-day duration.</a><p>The equipment will be returned the same day it is picked up.</p></li>
-					<li><a href="https://gist.legofarmen.se/leasepricetest/?SeasonPrice=1299&LeaseLimit=60&other_interval%5B1%5D%5BDay%5D=1&other_interval%5B1%5D%5BPrice%5D=249&other_interval%5B2%5D%5BDay%5D=2&other_interval%5B2%5D%5BPrice%5D=200&other_interval%5B3%5D%5BDay%5D=3&other_interval%5B3%5D%5BPrice%5D=150&other_interval%5B4%5D%5BDay%5D=4&other_interval%5B4%5D%5BPrice%5D=100&other_interval%5B5%5D%5BDay%5D=5&other_interval%5B5%5D%5BPrice%5D=50&other_interval%5B6%5D%5BDay%5D=6&other_interval%5B6%5D%5BPrice%5D=30&other_interval%5B7%5D%5BDay%5D=7&other_interval%5B7%5D%5BPrice%5D=20&LeaseBuffer=1&EarlyPickup=3&LateReturn=2&LeaseStart=2020-11-20&LeaseEnd=2020-11-30">Senior Medel short term with reprives</a><p>Different values for pickup date, return date, and lease buffer, illustrates how a store could work to even out the load over a period where many customers would otherwise pickup, and return, equipment on the same day. Also a demonstration of how lease buffer can be used to make up for likely late returns. </p></li>
+					<li><a href="https://gist.legofarmen.se/leasepricetest/?SeasonPrice=1299&LeaseLimit=60&other_interval%5B1%5D%5BDay%5D=1&other_interval%5B1%5D%5BPrice%5D=249&other_interval%5B2%5D%5BDay%5D=2&other_interval%5B2%5D%5BPrice%5D=200&other_interval%5B3%5D%5BDay%5D=3&other_interval%5B3%5D%5BPrice%5D=150&other_interval%5B4%5D%5BDay%5D=4&other_interval%5B4%5D%5BPrice%5D=100&other_interval%5B5%5D%5BDay%5D=5&other_interval%5B5%5D%5BPrice%5D=50&other_interval%5B6%5D%5BDay%5D=6&other_interval%5B6%5D%5BPrice%5D=30&other_interval%5B7%5D%5BDay%5D=7&other_interval%5B7%5D%5BPrice%5D=20&LeaseBuffer=1&EarlyPickup=3&LateReturn=2&LeaseStart=2020-11-20&LeaseEnd=2020-11-30">Senior Medel short term with reprives</a><p>Different values for <i>pickup date</i>, <i>return date</i>, and <i>lease buffer</i>, illustrates how a store could work to even out the load over a period where many customers would otherwise pickup, and return, equipment on the same day. Also a demonstration of how lease buffer can be used to make up for likely late returns. </p></li>
 					<li><a href="https://gist.legofarmen.se/leasepricetest/?SeasonPrice=5000&LeaseLimit=70&other_interval%5B1%5D%5BDay%5D=1&other_interval%5B1%5D%5BPrice%5D=249&other_interval%5B2%5D%5BDay%5D=2&other_interval%5B2%5D%5BPrice%5D=30&other_interval%5B4%5D%5BDay%5D=4&other_interval%5B4%5D%5BPrice%5D=150&other_interval%5B8%5D%5BDay%5D=8&other_interval%5B8%5D%5BPrice%5D=102&other_interval%5B16%5D%5BDay%5D=16&other_interval%5B16%5D%5BPrice%5D=50&other_interval%5B32%5D%5BDay%5D=32&other_interval%5B32%5D%5BPrice%5D=20&LeaseBuffer=3&EarlyPickup=3&LateReturn=2&LeaseStart=2020-11-20&LeaseEnd=2021-01-15">Product with disparate price ranges.</a><p>An example of a more complex array of prices.</p></li>
 					<li><a href="https://gist.legofarmen.se/leasepricetest/">Empty forms</a></li>
 				</ul><br />
@@ -509,7 +509,7 @@
 		</div>
 	</div>
 
-	<div class="row main slim">
+	<div class="row main">
 		<div class="col-sm-12">
 			<div class="content slim">
 				<button type="submit">Submit</button>
@@ -590,10 +590,10 @@ if(!empty($_GET)){ // Output results ?>
 			 			echo "<p class='info'>The calculated price exceeds the season price and as the season price is the maximum cost of any lease, regardless of lease length, season price is applied.</p>";
 			 		}
 			 		if( $LeaseRows[$LeaseResults['LeaseDuration']]['Limit']){
-			 			echo "<p class='info'>The duration of the lease is longer than the limit attribute for the product, meaning the calculated price is ignored and the season price is applied.</p>";
+			 			echo "<p class='info'>The duration of the lease is longer than the limit attribute for the product, meaning the calculated price is ignored and the season price is applied. We do not need to advice to the customer to lease the whole season just because the price is the same.</p>";
 			 		}
 					if( $LeaseResults['LeaseDuration'] == 0 ){
-			 			echo "<p class='info'>The Lease duration is less than one day, meaning the equipment is returned the same they it is picked up. Since the cost of leasing one day is the minimum cost for any lease, the cost of one day is applied.</p>";
+			 			echo "<p class='info'>The Lease duration is less than one day, meaning the equipment is returned the same they it is picked up. Since the cost of leasing one day is the minimum cost for any lease, the cost of one day is applied. We do not need to advice to the customer to lease the whole season just because the price is the same.</p>";
 			 		}
 			 		?>
 			 	</div>
@@ -683,19 +683,20 @@ if(!empty($_GET)){ // Output results ?>
 					);*/	
 					foreach(GetLeaseRows($LeaseArgs, $TableResults) as $Key => $Row){
 						if ( isset($Row['DayL']) && !$Row['MaxPrice']) {
-							
+							$Row['Comment'] = '';
 							if( $Row['DayL'] == 0){
 								$Row['AppliedSum'] =  $Row['MinPrice'];
 								$Row['Comment'] = '</li><li>Applies to sameday returns. Does not add to the sum.</li>';
 							}
-							else{
-								$Row['Comment'] = '';
-							}
 							if( $Row['AppliedSum'] >= $LeaseArgs['SeasonPrice']){
 								$ShowMax = true;
+								$Row['Comment'] = "<li>Calculated price matches or exceeds Max price. Season price applied.</li>";
 							}
+
 							if( $Row['DayL'] >= $LeaseArgs['LeaseLimit']){
 								$ShowLimit = true; 
+								$Row['Comment'] = "<li>Lease limit reached. Season price applied.s</li>";
+
 							}
 
 							echo "<tr class=''>";
@@ -705,7 +706,7 @@ if(!empty($_GET)){ // Output results ?>
 								echo "<td>" . AddCur($Row['AppliedSum']) . "</td>";
 								echo "<td class='comment'><ul>" . $Row['Comment'] . "</ul></td>";
 							echo "</tr>";
-						$PriceRows = $Row['DayL'];
+						$PriceRows = $Row['DayL'] - 1;
 						} 
 						
 					}
